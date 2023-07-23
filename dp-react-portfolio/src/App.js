@@ -4,10 +4,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Resume from "./components/Resume"; 
 import Footer from "./components/Footer"; 
-
-// Import your custom components here (Header, AboutMe, Portfolio, Contact, Resume, Footer)
 
 function App() {
   // State to track the currently selected section
@@ -20,22 +17,22 @@ function App() {
 
   return (
     <div className="App">
-          {/* Header */}
-          <Navbar currentSection={currentSection} handleNavClick={handleNavClick} />
+      {/* Header */}
+      <Navbar currentSection={currentSection} handleNavClick={handleNavClick} />
 
-{/* Main Content */}
-<main>
-  {/* Use conditional rendering to show the appropriate content section based on the currentSection state */}
-  {currentSection === 'About Me' && <About />}
-  {currentSection === 'Portfolio' && <Projects />}
-  {currentSection === 'Contact' && <Contact />}
-  {currentSection === 'Resume' && <Resume />}
-</main>
+      {/* Main Content */}
+      <main>
+        {/* Use conditional rendering to show the appropriate content section based on the currentSection state */}
+        {currentSection === 'About Me' && <About />}
+        {currentSection === 'Portfolio' && <Projects />}
+        {currentSection === 'Contact' && <Contact />}
+        {currentSection === 'Footer' && <Footer />}
+      </main>
 
-{/* Footer */}
-<Footer />
-</div>
-);
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
