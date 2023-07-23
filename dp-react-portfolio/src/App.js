@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume"; 
+import Footer from "./components/Footer"; 
 
 // Import your custom components here (Header, AboutMe, Portfolio, Contact, Resume, Footer)
 
