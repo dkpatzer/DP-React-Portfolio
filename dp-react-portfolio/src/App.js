@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
+// Import your custom components here (Header, AboutMe, Portfolio, Contact, Resume, Footer)
+
 function App() {
+  // State to track the currently selected section
+  const [currentSection, setCurrentSection] = useState('About Me');
+
+  // Handler function for updating the current section when a navigation title is clicked
+  const handleNavClick = (title) => {
+    setCurrentSection(title);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Header */}
+      {/* Use my custom Header component here, passing the currentSection state and handleNavClick function as props */}
+
+      {/* Main Content */}
+      <main>
+        {/* Use conditional rendering to show the appropriate content section based on the currentSection state */}
+        {/* Use your custom components (AboutMe, Portfolio, Contact, Resume) here */}
+        {/* Pass appropriate props to each section if needed */}
+      </main>
+
+      {/* Footer */}
+      {/* Use my custom Footer component here */}
     </div>
   );
 }
