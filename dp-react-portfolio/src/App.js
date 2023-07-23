@@ -20,20 +20,22 @@ function App() {
 
   return (
     <div className="App">
-      {/* Header */}
-      {/* Use my custom Header component here, passing the currentSection state and handleNavClick function as props */}
+          {/* Header */}
+          <Navbar currentSection={currentSection} handleNavClick={handleNavClick} />
 
-      {/* Main Content */}
-      <main>
-        {/* Use conditional rendering to show the appropriate content section based on the currentSection state */}
-        {/* Use your custom components (AboutMe, Portfolio, Contact, Resume) here */}
-        {/* Pass appropriate props to each section if needed */}
-      </main>
+{/* Main Content */}
+<main>
+  {/* Use conditional rendering to show the appropriate content section based on the currentSection state */}
+  {currentSection === 'About Me' && <About />}
+  {currentSection === 'Portfolio' && <Projects />}
+  {currentSection === 'Contact' && <Contact />}
+  {currentSection === 'Resume' && <Resume />}
+</main>
 
-      {/* Footer */}
-      {/* Use my custom Footer component here */}
-    </div>
-  );
+{/* Footer */}
+<Footer />
+</div>
+);
 }
 
 export default App;
