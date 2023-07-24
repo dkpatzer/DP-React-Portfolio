@@ -24,10 +24,10 @@ export const projects = [
       link: "https://github.com/orgs/food-friendz/repositories",
     },
     {
-      title: "Professional Developer Portfolio",
-      subtitle: "Advanced CSS Project",
+      title: "MERN Full Stack Book Search App",
+      subtitle: "MERN Full Stack Project",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "This MERN Full Stack Book Search App. uses Google Books API to find any book you desire!",
       image: "./images/Portfolio Pic 1 copy.png",
       link: "https://github.com/dkpatzer/Professional-Developer-Portfolio",
     }
