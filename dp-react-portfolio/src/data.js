@@ -24,13 +24,14 @@ export const projects = [
       link: "https://github.com/orgs/food-friendz/repositories",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Professional Developer Portfolio",
+      subtitle: "Advanced CSS Project",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
+      image: "./images/Portfolio Pic 1 copy.png",
+      link: "https://github.com/dkpatzer/Professional-Developer-Portfolio",
+    }
+    
   ];
 
   export const skills = [
