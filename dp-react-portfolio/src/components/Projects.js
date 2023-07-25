@@ -20,7 +20,7 @@ export default function Projects() {
             {projects.map((project) => (
               <a
                 href={project.link}
-                key={project.image}
+                key={project.id} // Add the unique "id" property as the key
                 className="sm:w-1/2 w-100 p-4"
               >
                 <div className="flex relative">
@@ -47,3 +47,4 @@ export default function Projects() {
     </section>
   );
 }
+

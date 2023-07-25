@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Welcome to my portfolio. I'm David Patzer, M.D., a full-stack web developer
+            Welcome to my portfolio. I'm David Patzer, M.D., Let's get to know each other.
             <br className="hidden lg:inline-block" />I'm a physician and full-stack web developer with a passion for making your dreams come alive!
             apps.
           </h1>
