@@ -1,0 +1,14 @@
+{
+  "main.css": "/your-repository-name/static/css/main.f220d198.chunk.css",
+  "main.js": "/your-repository-name/static/js/main.71e354fc.chunk.js",
+  "main.js.map": "/your-repository-name/static/js/main.71e354fc.chunk.js.map",
+  "static/js/1.20e15a61.chunk.js": "/your-repository-name/static/js/1.20e15a61.chunk.js",
+  "static/js/1.20e15a61.chunk.js.map": "/your-repository-name/static/js/1.20e15a61.chunk.js.map",
+  "runtime~main.js": "/your-repository-name/static/js/runtime~main.65ddd05e.js",
+  "runtime~main.js.map": "/your-repository-name/static/js/runtime~main.65ddd05e.js.map",
+  "static/media/2021 Twitter logo - blue.png": "/your-repository-name/static/media/2021 Twitter logo - blue.7571ea13.png",
+  "static/css/main.f220d198.chunk.css.map": "/your-repository-name/static/css/main.f220d198.chunk.css.map",
+  "index.html": "/your-repository-name/index.html",
+  "precache-manifest.3660bac4b81901b7dd53cc1068074439.js": "/your-repository-name/precache-manifest.3660bac4b81901b7dd53cc1068074439.js",
+  "service-worker.js": "/your-repository-name/service-worker.js"
+}
