@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/your-repository-name",
+  "homepage": "https://dkpatzer.github.io/DP-React-Portfolio",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
@@ -16,7 +16,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "craco build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^5.0.0",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
